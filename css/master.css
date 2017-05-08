@@ -1,0 +1,48 @@
+/* Charte graphique
+
+*/
+
+/* Helpers material-icons*/
+
+.material-icons.md-18 { font-size: 18px; }
+
+.material-icons.md-24 { font-size: 24px; }
+
+.material-icons.md-36 { font-size: 36px; }
+
+.material-icons.md-48 { font-size: 48px; }
+
+/* Style général */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  color: lightgrey;
+}
+
+h1 {
+
+}
+
+h2 {
+}
+
+h3 {
+
+}
+
+/* Menu */
+
+nav {
+  background-color: white;
+}
+
+.nav-wrapper li>a, .side-nav li>a{
+  color: green;
+}
+
+.button-collapse i {
+  color: red;
+}
