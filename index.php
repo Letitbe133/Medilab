@@ -14,7 +14,7 @@
       <div class="navbar-fixed">
         <nav>
           <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#!" class="brand-logo"><img src="assets/img/logos/logo-medilab.svg" alt="logo medilab" width="75px"/></a>
             <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons md-36">menu</i></a>
             <ul class="right hide-on-med-and-down">
               <li class="active"><a href="#!">About</a></li>
@@ -58,7 +58,7 @@
         </div>
         <div class="col s12 l4">
           <div class="col s4 offset-s4">
-            Picto 1
+            <img src="assets/img/pictos/pills.png" alt="pills picto" width="75px"/>
           </div>
           <div class="col s8 offset-s2">
             <h3 class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
@@ -66,7 +66,7 @@
         </div>
         <div class="col s12 l4">
           <div class="col s4 offset-s4">
-            Picto 2
+            <img src="assets/img/pictos/hands.png" alt="hands picto" width="100px"/>
           </div>
           <div class="col s8 offset-s2">
             <h3 class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
@@ -74,7 +74,7 @@
         </div>
         <div class="col s12 l4">
           <div class="col s4 offset-s4">
-            Picto 3
+            <img src="assets/img/pictos/earth-arrow-blue.png" alt="picto earth network" width="100px"/>
           </div>
           <div class="col s8 offset-s2">
             <h3 class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
@@ -84,7 +84,7 @@
           Image shake hands
         </div>
         <div class="col s12 l6">
-          Picto monde
+          <img src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="270px"/>
         </div>
         <div class="col l6">
           <div class="col s1 offset-s1">
@@ -134,12 +134,12 @@
         </div>
         <div class="col s6">
           <div class="col s10 offset-s1">
-            Partner 1
+            <img src="assets/img/logos/logo-ubipharm.png" alt="logo partner ubipharm" width="50%"/>
           </div>
         </div>
         <div class="col s6">
           <div class="col s10 offset-s1">
-            Partner 2
+            <img src="assets/img/logos/logo-planet-pharma.png" alt="logo partner planet pharma" width="50%"/>
           </div>
         </div>
         <div class="col s1 offset-s1">
