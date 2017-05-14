@@ -5,4 +5,7 @@ $(function(){
 
   // initialisation carousel
   $('.carousel').carousel({duration: 300, dist: -100, indicators: true});
+
+  // Initialisation parallax
+  $('.parallax').parallax();
 })

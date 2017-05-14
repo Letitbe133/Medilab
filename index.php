@@ -49,7 +49,10 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col s12 l4">
-          Image section About us
+          <img src="assets/img/about-us-illustration-600.jpeg"
+            alt="Learn more about us"
+            srcset="assets/img/about-us-illustration-600.jpeg 600w, assets/img/about-us-illustration-992.jpeg 992w, assets/img/about-us-illustration-1200 1200w.jpeg, assets/img/about-us-illustration-1200+.jpeg"
+            sizes="(min-width: 992px) 30vw, 95vw">
         </div>
       </section>
       <section class="row grey lighten-4">
@@ -81,19 +84,24 @@
           </div>
         </div>
         <div class="col s12">
-          Image shake hands
+          <div class="">
+            <img src="assets/img/clasped-hands-comfort-hands-people-600.jpeg"
+              alt="Discover our products"
+              srcset="assets/img/clasped-hands-comfort-hands-people-600.jpeg 600w, assets/img/clasped-hands-comfort-hands-people-992.jpeg 992w, assets/img/clasped-hands-comfort-hands-people-1200.jpeg 1200w, assets/img/clasped-hands-comfort-hands-people-1200+.jpeg 1920w"
+              sizes="97.8vw">
+          </div>
         </div>
-        <div class="col s12 l6">
+        <div class="col s12 l6 center-align">
           <img src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="270px"/>
         </div>
         <div class="col l6">
-          <div class="col s1 offset-s1">
+          <div class="col s2 offset-s1">
             <i class="material-icons md-36">location_on</i>
           </div>
           <div class="col s9">
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
           </div>
-          <div class="col s1 offset-s1">
+          <div class="col s2 offset-s1">
             <i class="material-icons md-36">location_on</i>
           </div>
           <div class="col s9">
@@ -133,31 +141,34 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="col s6">
-          <div class="col s10 offset-s1">
+          <div class="col s10 offset-s1 center-align">
             <img src="assets/img/logos/logo-ubipharm.png" alt="logo partner ubipharm" width="50%"/>
           </div>
         </div>
         <div class="col s6">
-          <div class="col s10 offset-s1">
+          <div class="col s10 offset-s1 center-align">
             <img src="assets/img/logos/logo-planet-pharma.png" alt="logo partner planet pharma" width="50%"/>
           </div>
         </div>
-        <div class="col s1 offset-s1">
-          <i class="material-icons md-36">check_circle</i>
+        <div class="col s2 offset-s1 l1 offset-l1">
+          <i class="material-icons md-48">check_circle</i>
         </div>
-        <div class="col s9">
-          <h2 class="col s12">GMP</h3>
-          <h3 class="col s12">Good Manufacturing Practice</h2>
+        <div class="col s8 l4">
+          <h2 class="col s12">GMP</h2>
+          <h3 class="col s12">Good Manufacturing Practice</h3>
         </div>
-        <div class="col s1 offset-s1">
-          <i class="material-icons md-36">check_circle</i>
+        <div class="col s2 offset-s1 l1">
+          <i class="material-icons md-48">check_circle</i>
         </div>
-        <div class="col s9">
-          <h2 class="col s12">GDP</h3>
-          <h3 class="col s12">Good Distribution Practice</h2>
+        <div class="col s8 l4">
+          <h2 class="col s12">GDP</h2>
+          <h3 class="col s12">Good Distribution Practice</h3>
         </div>
         <div class="col s12 hide-on-med-and-up">
-          Image feuille
+          <img src="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg"
+            alt="Discover our products"
+            srcset="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg 600w, assets/img/medications-cure-tablets-pharmacy-feuille-992.jpeg 992w, assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg 1200w, assets/img/medications-cure-tablets-pharmacy-feuille-1200+.jpeg 1920w"
+            sizes="(min-width: 992px) 30vw, 95vw">
         </div>
       </section>
       <section class="row grey lighten-4">
@@ -167,28 +178,28 @@
         <form class="col s10 offset-s1 l8">
           <div class="row">
             <div class="input-field col s12">
-              <i class="material-icons prefix md-36">account_circle</i>
+              <i class="material-icons prefix">account_circle</i>
               <input placeholder="John Doe" id="name" type="text" class="validate">
               <label for="name">Your name</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <i class="material-icons prefix md-36">email</i>
+              <i class="material-icons prefix">email</i>
               <input placeholder="john.doe@mail.com" id="email"type="email" class="validate">
               <label for="email">Your email</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <i class="material-icons prefix md-36">subject</i>
+              <i class="material-icons prefix">subject</i>
               <input id="subject" type="text" class="validate">
               <label for="subject">Subject</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <i class="material-icons prefix md-36">textsms</i>
+              <i class="material-icons prefix">textsms</i>
               <textarea id="message" type="email" class="materialize-textarea"></textarea>
               <label for="message">Your message</label>
             </div>
@@ -202,7 +213,10 @@
           </div>
       </form>
       <div class="col l4 hide-on-small-only">
-        Image travail
+        <img src="assets/img/contact-illustration-600.jpeg"
+          alt="Contact us"
+          srcset="assets/img/contact-illustration-600.jpeg 600w, assets/img/contact-illustration-992.jpeg 992w, assets/img/contact-illustration-1200.jpeg 1200w, assets/img/contact-illustration-1200+.jpeg 1920w"
+          sizes="(min-width: 992px) 30vw, 95vw">
       </div>
       </section>
     </main>
