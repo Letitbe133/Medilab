@@ -15,30 +15,31 @@
     <header>
 
       <!-- Fixed collapsible menu module start -->
-          <nav>
-            <div class="nav-wrapper">
-              <a href="#!" class="brand-logo center-align"><img class="responsive-img" src="assets/img/logos/logo-medilab.svg" alt="logo medilab" width="40%"/></a>
-              <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons md-36">menu</i></a>
-              <ul class="right hide-on-med-and-down">
-                <li class="active"><a class="dark-green" href="#!">About</a></li>
-                <li><a class="dark-green" href="#!">Activities</a></li>
-                <li><a class="dark-green" href="#!">Products</a></li>
-                <li><a class="dark-green" href="#!">Contact</a></li>
-              </ul>
-              <ul class="side-nav" id="mobile-menu">
-              <li><a href="#!">About</a></li>
-              <li><a href="#!">Activities</a></li>
-              <li><a href="#!">Products</a></li>
-              <li><a href="#!">Contact</a></li>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center-align"><img class="responsive-img" src="assets/img/logos/logo-medilab.svg" alt="logo medilab" width="40%"/></a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons md-36">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li class="active"><a class="dark-green" href="#!">About</a></li>
+              <li><a class="dark-green" href="#!">Activities</a></li>
+              <li><a class="dark-green" href="#!">Products</a></li>
+              <li><a class="dark-green" href="#!">Contact</a></li>
             </ul>
-            </div>
-          </nav>
+            <ul class="side-nav" id="mobile-menu">
+            <li><a href="#!">About</a></li>
+            <li><a href="#!">Activities</a></li>
+            <li><a href="#!">Products</a></li>
+            <li><a href="#!">Contact</a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
         <!-- Fixed collapsible menu module end -->
 
         <div class="row">
 
           <!-- Parallax module start -->
-          <div class="col s12">
             <div class="parallax-container">
               <div class="parallax">
                 <img src="assets/img/we-care-for-you-medilab-600.jpeg"
@@ -48,16 +49,17 @@
                   sizes="(min-width: 992px) 98vw">
                 </div>
             </div>
-          </div>
           <!-- Parallax module end -->
 
           <div class="tagline">
+            <div class="col s6">
+                <h1>We care<br/>for you</h1>
+            </div>
             <div class="col s12">
-                <h1>We care for you</h1>
-                <h2>Lorem ipsum dolor sit amet,<br/>consectetur adipiscing</h2>
+              <h2>Lorem ipsum dolor sit amet,<br/>consectetur adipiscing</h2>
             </div>
             <div class="col s2 offset-s5 center">
-              <i class="material-icons md-60">arrow_downward</i>
+              <i class="material-icons md-60 center">arrow_downward</i>
             </div>
           </div>
         </div>
@@ -67,9 +69,9 @@
     <!-- Main start -->
     <main>
       <section class="section row">
-          <div class="col s12 l7 offset-l1">
+          <div class="col s12">
             <h2 class="dark-green">About us</h2>
-            <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
         <div class="row">
           <div class="col s12 l7 offset-l1">
@@ -84,36 +86,34 @@
           </div>
         </div>
       </section>
-      <section class="row">
-        <div class="row">
-          <div class="col s12 l7 offset-l1">
+      <section class="section row">
+          <div class="col s12">
             <h2 class="dark-green">Activities</h2>
-            <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
-        </div>
           <div class="row">
             <div class="col s12 l4">
-              <div class="col s4 offset-s4 valign-wrapper">
-                <img src="assets/img/pictos/pills.png" alt="pills picto" width="80%"/>
+              <div class="col s4 offset-s4 center">
+                <img class="responsive-img" src="assets/img/pictos/pills.png" alt="pills picto" width="80%"/>
               </div>
-              <div class="col s8 offset-s2">
-                <h3 class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+              <div class="col s12">
+                <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
               </div>
             </div>
             <div class="col s12 l4">
-              <div class="col s4 offset-s4 valign-wrapper">
+              <div class="col s4 offset-s4">
                 <img src="assets/img/pictos/hands.png" alt="hands picto" width="80%"/>
               </div>
-              <div class="col s8 offset-s2">
-                <h3 class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+              <div class="col s12">
+                <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
               </div>
             </div>
             <div class="col s12 l4">
-              <div class="col s4 offset-s4 valign-wrapper">
+              <div class="col s4 offset-s4">
                 <img src="assets/img/pictos/earth-arrow-blue.png" alt="picto earth network" width="80%"/>
               </div>
-              <div class="col s8 offset-s2">
-                <h3 class="align-center">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+              <div class="col s12">
+                <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
               </div>
             </div>
           </div>
@@ -146,9 +146,9 @@
         </div>
       </section>
       <section class="section row grey lighten-4">
-          <div class="col s12 l6 offset-l1">
+          <div class="col s12 l7">
             <h2 class="dark-green">Products</h2>
-            <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 l4 offset-l2 underline"></div>
           </div>
           <form class="col s10 offset-s1 l4">
             <div class="input-field">
@@ -157,13 +157,6 @@
               <i class="material-icons">close</i>
             </div>
           </form>
-          <!-- <form class="col s10 offset-s1 l4 hide-on-med-and-up">
-            <div class="input-field">
-              <input id="search" type="search" required>
-              <label class="label-icon" for="search"><i class="material-icons blue">search</i></label>
-              <i class="material-icons">close</i>
-            </div>
-          </form> -->
         <div class="col s10 offset-s1 hide-on-small-only">
           <div class="carousel carousel-slider">
             <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/nature/1"></a>
@@ -182,9 +175,9 @@
         </div>
       </section>
       <section class="section row">
-          <div class="col s12 l7 offset-l1">
+          <div class="col s12">
             <h2 class="dark-green">Partners</h2>
-            <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
         <div class="col l12 hide-on-small-only l7 offset-l1">
           <h3>Lorem ipsum dolor sit amet</h3>
@@ -200,19 +193,19 @@
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="logo partner planet pharma"/>
           </div>
         </div>
-        <div class="col s2 offset-s1 l1 offset-l1">
+        <!-- <div class="col s2 offset-s1 l1 offset-l1">
           <i class="material-icons md-60 pale-green">check_circle</i>
+        </div> -->
+        <div class="col s12 l6 dark-green center">
+          <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GMP</h2>
+          <h3>Good Manufacturing Practice</h3>
         </div>
-        <div class="col s8 l4 dark-green">
-          <h2 class="col s12">GMP</h2>
-          <h3 class="col s12">Good Manufacturing Practice</h3>
-        </div>
-        <div class="col s2 offset-s1 l1">
+        <!-- <div class="col s2 offset-s1 l1">
           <i class="material-icons md-60 pale-green">check_circle</i>
-        </div>
-        <div class="col s8 l4 dark-green">
-          <h2 class="col s12">GDP</h2>
-          <h3 class="col s12">Good Distribution Practice</h3>
+        </div> -->
+        <div class="col s12 l6 dark-green center">
+          <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GDP</h2>
+          <h3>Good Distribution Practice</h3>
         </div>
         <div class="row hide-on-med-and-up">
           <div class="col s12">
@@ -224,12 +217,12 @@
         </div>
       </section>
       <section id="contact" class="section row grey lighten-4">
-          <div class="col s12 l7 offset-l1">
+          <div class="col s12">
             <h2 class="dark-green">Contact us</h2>
-            <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
         <div class="row">
-          <form class="col s10 offset-s1 l7 offset-l1">
+          <form class="col s12 l7 offset-l1">
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
@@ -265,13 +258,13 @@
                 </button>
               </div>
             </div>
-        </form>
-        <div class="col l4 hide-on-small-only">
-          <img src="assets/img/contact-illustration-600.jpeg"
-            alt="Contact us"
-            srcset="assets/img/contact-illustration-600.jpeg 600w, assets/img/contact-illustration-992.jpeg 992w, assets/img/contact-illustration-1200.jpeg 1200w, assets/img/contact-illustration-1200+.jpeg 1920w"
-            sizes="(min-width: 992px) 30vw, 95vw">
-        </div>
+          </form>
+          <div class="col l4 hide-on-small-only">
+            <img src="assets/img/contact-illustration-600.jpeg"
+              alt="Contact us"
+              srcset="assets/img/contact-illustration-600.jpeg 600w, assets/img/contact-illustration-992.jpeg 992w, assets/img/contact-illustration-1200.jpeg 1200w, assets/img/contact-illustration-1200+.jpeg 1920w"
+              sizes="(min-width: 992px) 30vw, 95vw">
+          </div>
         </div>
       </section>
     </main>
@@ -279,7 +272,7 @@
 
     <!-- Footer start -->
     <footer class="section row grey darken-3">
-      <div class="col s10 offset-s1">
+      <div class="col s12">
         <h2>Head Office</h2>
         <div class="row">
           <div class="col s12 l4">
@@ -296,11 +289,9 @@
         </div>
       </div>
       <div class="divider col s12"></div>
-      <div class="row">
         <div class="col s12 center-align">
           &copy&nbspCopyright 2017. All rights reserved. Legal informations. Terms of use
         </div>
-      </div>
     </footer>
     <!-- Footer end -->
 
