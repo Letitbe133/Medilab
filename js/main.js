@@ -11,4 +11,7 @@ $(function(){
 
   // Initialisation parallax
   $('.parallax').parallax();
+
+  // Initialisation scrollSpy
+  $('.scrollspy').scrollSpy({scrollOffset:30});
 })

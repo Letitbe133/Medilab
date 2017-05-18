@@ -20,17 +20,19 @@
           <div class="nav-wrapper">
             <a href="#!" class="brand-logo center-align"><img class="responsive-img" src="assets/img/logos/logo-medilab.svg" alt="logo medilab" width="40%"/></a>
             <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons md-36">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li class="active"><a class="dark-green" href="#!">About</a></li>
-              <li><a class="dark-green" href="#!">Activities</a></li>
-              <li><a class="dark-green" href="#!">Products</a></li>
-              <li><a class="dark-green" href="#!">Contact</a></li>
+            <ul class="right hide-on-med-and-down table-of-contents">
+              <li class="active"><a class="dark-green" href="#about">About</a></li>
+              <li><a class="dark-green" href="#activities">Activities</a></li>
+              <li><a class="dark-green" href="#products">Products</a></li>
+              <li><a class="dark-green" href="#partners">Partners</a></li>
+              <li><a class="dark-green" href="#contact">Contact</a></li>
             </ul>
-            <ul class="side-nav" id="mobile-menu">
-            <li><a href="#!">About</a></li>
-            <li><a href="#!">Activities</a></li>
-            <li><a href="#!">Products</a></li>
-            <li><a href="#!">Contact</a></li>
+            <ul class="side-nav " id="mobile-menu">
+            <li class="active"><a class="dark-green" href="#about">About</a></li>
+            <li><a class="dark-green" href="#activities">Activities</a></li>
+            <li><a class="dark-green" href="#products">Products</a></li>
+            <li><a class="dark-green" href="#partners">Partners</a></li>
+            <li><a class="dark-green" href="#contact">Contact</a></li>
           </ul>
           </div>
         </nav>
@@ -68,7 +70,7 @@
 
     <!-- Main start -->
     <main>
-      <section class="section row">
+      <section id="about" class="section row scrollspy">
           <div class="col s12">
             <h2 class="dark-green">About us</h2>
             <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
@@ -86,15 +88,15 @@
           </div>
         </div>
       </section>
-      <section class="section row">
-          <div class="col s12">
+      <section id="activities" class="section row scrollspy">
+          <div class="col s12 grey lighten-4">
             <h2 class="dark-green">Activities</h2>
             <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
-          <div class="row">
+          <div class="col l12 grey lighten-4">
             <div class="col s12 l4">
               <div class="col s4 offset-s4 center">
-                <img class="responsive-img" src="assets/img/pictos/pills.png" alt="pills picto" width="80%"/>
+                <img class="responsive-img" src="assets/img/pictos/pills.png" alt="High quality generics" width="80%"/>
               </div>
               <div class="col s12">
                 <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
@@ -102,7 +104,7 @@
             </div>
             <div class="col s12 l4">
               <div class="col s4 offset-s4">
-                <img src="assets/img/pictos/hands.png" alt="hands picto" width="80%"/>
+                <img src="assets/img/pictos/hands.png" alt="Valuable partners" width="80%"/>
               </div>
               <div class="col s12">
                 <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
@@ -110,23 +112,23 @@
             </div>
             <div class="col s12 l4">
               <div class="col s4 offset-s4">
-                <img src="assets/img/pictos/earth-arrow-blue.png" alt="picto earth network" width="80%"/>
+                <img src="assets/img/pictos/earth-arrow-blue.png" alt="We deliver" width="80%"/>
               </div>
               <div class="col s12">
                 <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col s12">
-              <div class="hide-on-med-and-up">
-                <img src="assets/img/clasped-hands-comfort-hands-people-600.jpeg"
-                  alt="Discover our products"
-                  srcset="assets/img/clasped-hands-comfort-hands-people-600.jpeg 600w, assets/img/clasped-hands-comfort-hands-people-992.jpeg 992w, assets/img/clasped-hands-comfort-hands-people-1200.jpeg 1200w, assets/img/clasped-hands-comfort-hands-people-1200+.jpeg 1920w"
-                  sizes="94vw">
-              </div>
-            </div>
+      </section>
+      <div class="row hide-on-med-and-up mid-sec-img">
+          <div class="col s12 hide-on-med-and-up">
+            <img src="assets/img/clasped-hands-comfort-hands-people-600.jpeg"
+              alt="Discover our products"
+              srcset="assets/img/clasped-hands-comfort-hands-people-600.jpeg 600w, assets/img/clasped-hands-comfort-hands-people-992.jpeg 992w, assets/img/clasped-hands-comfort-hands-people-1200.jpeg 1200w, assets/img/clasped-hands-comfort-hands-people-1200+.jpeg 1920w"
+              sizes="94vw">
           </div>
+      </div>
+      <section class="section row">
         <div class="col s12 l8 center-align">
           <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
         </div>
@@ -145,14 +147,14 @@
           </div>
         </div>
       </section>
-      <section class="section row grey lighten-4">
+      <section id="products" class="section row grey lighten-4 scrollspy">
           <div class="col s12 l7">
             <h2 class="dark-green">Products</h2>
             <div class="col s6 offset-s2 l4 offset-l2 underline"></div>
           </div>
           <form class="col s10 offset-s1 l4">
             <div class="input-field">
-              <input id="search" type="search" required>
+              <input id="search" type="search" placeholder="Browse our products">
               <label class="label-icon" for="search"><i class="material-icons blue">search</i></label>
               <i class="material-icons">close</i>
             </div>
@@ -174,15 +176,15 @@
           </div>
         </div>
       </section>
-      <section class="section row">
+      <section id="partners" class="section row scrollspy">
           <div class="col s12">
             <h2 class="dark-green">Partners</h2>
             <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
-        <div class="col l12 hide-on-small-only l7 offset-l1">
+        <div class="col l7 offset-l1 hide-on-small-only">
           <h3>Lorem ipsum dolor sit amet</h3>
         </div>
-        <div class="col hide-on-small-only l10 offset-l1">
+        <div class="col l10 offset-l1 hide-on-small-only">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         <div class="row">
@@ -207,16 +209,16 @@
           <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GDP</h2>
           <h3>Good Distribution Practice</h3>
         </div>
-        <div class="row hide-on-med-and-up">
-          <div class="col s12">
-            <img src="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg"
-              alt="Discover our products"
-              srcset="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg 600w, assets/img/medications-cure-tablets-pharmacy-feuille-992.jpeg 992w, assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg 1200w, assets/img/medications-cure-tablets-pharmacy-feuille-1200+.jpeg 1920w"
-              sizes="94vw">
-          </div>
-        </div>
       </section>
-      <section id="contact" class="section row grey lighten-4">
+      <div class="row hide-on-med-and-up mid-sec-img">
+        <div class="col s12">
+          <img src="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg"
+            alt="Discover our products"
+            srcset="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg 600w, assets/img/medications-cure-tablets-pharmacy-feuille-992.jpeg 992w, assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg 1200w, assets/img/medications-cure-tablets-pharmacy-feuille-1200+.jpeg 1920w"
+            sizes="94vw">
+        </div>
+      </div>
+      <section id="contact" class="section row grey lighten-4 scrollspy">
           <div class="col s12">
             <h2 class="dark-green">Contact us</h2>
             <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
