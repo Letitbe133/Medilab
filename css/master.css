@@ -32,7 +32,7 @@ Bleu : 0097c6ff (0, 151, 198)
   background-color: transparent;
 }
 
-.red {
+.dark-red {
   color: rgba(229, 50, 45, 1);
   background-color: transparent;
 }
@@ -151,6 +151,10 @@ footer h2 {
 }
 
 @media (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+
   h2 {
     font-size: 3rem;
   }
@@ -161,10 +165,6 @@ footer h2 {
 
   .tagline h2 {
     font-size: 1.7rem;
-  }
-
-  h1 {
-    font-size: 5rem;
   }
 
   .nav-wrapper li>a, .side-nav li>a{

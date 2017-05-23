@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Medilab</title>
-    <meta content="width=device-width initial-scale=1 user-scalable=no">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Lato:900%7cMontserrat:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
@@ -135,7 +135,7 @@
         </div>
         <div class="col l4">
           <div class="col s2 offset-s1">
-            <i class="material-icons md-36 red">location_on</i>
+            <i class="material-icons md-36 dark-red">location_on</i>
           </div>
           <div class="col s9">
             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
