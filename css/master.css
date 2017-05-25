@@ -46,8 +46,12 @@ Bleu : 0097c6ff (0, 151, 198)
 /* Style général */
 
 html, body {
+	
   font-family: sans-serif;
   color: #777777;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
 h1 {

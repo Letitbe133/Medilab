@@ -157,13 +157,13 @@
               <i class="material-icons">close</i>
             </div>
           </form>
-          <!-- <form class="col s10 offset-s1 l4 hide-on-med-and-up">
+          <form class="col s10 offset-s1 l4 hide-on-med-and-up">
             <div class="input-field">
               <input id="search" type="search" required>
               <label class="label-icon" for="search"><i class="material-icons blue">search</i></label>
               <i class="material-icons">close</i>
             </div>
-          </form> -->
+          </form>
         <div class="col s10 offset-s1 hide-on-small-only">
           <div class="carousel carousel-slider">
             <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/nature/1"></a>
@@ -186,7 +186,7 @@
             <h2 class="dark-green">Partners</h2>
             <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
           </div>
-        <div class="col l12 hide-on-small-only l7 offset-l1">
+        <div class="col s12 hide-on-small-only l7 offset-l1">
           <h3>Lorem ipsum dolor sit amet</h3>
         </div>
         <div class="col hide-on-small-only l10 offset-l1">
@@ -214,16 +214,16 @@
           <h2 class="col s12">GDP</h2>
           <h3 class="col s12">Good Distribution Practice</h3>
         </div>
-        <div class="row hide-on-med-and-up">
+        <!--<div class="row hide-on-med-and-up">
           <div class="col s12">
             <img src="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg"
               alt="Discover our products"
               srcset="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg 600w, assets/img/medications-cure-tablets-pharmacy-feuille-992.jpeg 992w, assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg 1200w, assets/img/medications-cure-tablets-pharmacy-feuille-1200+.jpeg 1920w"
               sizes="94vw">
           </div>
-        </div>
+        </div>-->
       </section>
-      <section id="contact" class="section row grey lighten-4">
+     <section id="contact" class="section row grey lighten-4">
           <div class="col s12 l7 offset-l1">
             <h2 class="dark-green">Contact us</h2>
             <div class="col s6 offset-s2 l3 offset-l1 underline"></div>
@@ -266,15 +266,17 @@
               </div>
             </div>
         </form>
-        <div class="col l4 hide-on-small-only">
+		
+
+		<div class="col s12 hide-on-small-only"> 
           <img src="assets/img/contact-illustration-600.jpeg"
             alt="Contact us"
             srcset="assets/img/contact-illustration-600.jpeg 600w, assets/img/contact-illustration-992.jpeg 992w, assets/img/contact-illustration-1200.jpeg 1200w, assets/img/contact-illustration-1200+.jpeg 1920w"
             sizes="(min-width: 992px) 30vw, 95vw">
         </div>
-        </div>
-      </section>
-    </main>
+</div>      	
+      	</section>
+     </main>
     <!-- Main end -->
 
     <!-- Footer start -->
