@@ -96,24 +96,24 @@
           </div>
           <div class="col l12 grey lighten-4">
             <div class="col s12 l4">
-              <div class="col s4 offset-s4 center">
-                <img class="responsive-img" src="assets/img/pictos/pills.png" alt="High quality generics" width="80%"/>
+              <div class="col s12  center-align">
+                <img  src="assets/img/pictos/pills.png" alt="High quality generics"/>
               </div>
               <div class="col s12">
                 <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
               </div>
             </div>
             <div class="col s12 l4">
-              <div class="col s4 offset-s4">
-                <img src="assets/img/pictos/hands.png" alt="Valuable partners" width="80%"/>
+              <div class="col s12 center-align">
+                <img src="assets/img/pictos/hands.png" alt="Valuable partners" />
               </div>
               <div class="col s12">
                 <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
               </div>
             </div>
             <div class="col s12 l4">
-              <div class="col s4 offset-s4">
-                <img src="assets/img/pictos/earth-arrow-blue.png" alt="We deliver" width="80%"/>
+              <div class="col s12  center-align">
+                <img src="assets/img/pictos/earth-arrow-blue.png" alt="We deliver"/>
               </div>
               <div class="col s12">
                 <h3 class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
