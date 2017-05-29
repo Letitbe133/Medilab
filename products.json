@@ -1,0 +1,20 @@
+[
+    {
+        "name": "BETAMED Crème",
+        "conditionnement": "Crème",
+        "description": "Betamethasone crème",
+        "dosage": "30g"
+      },
+      {
+        "name": "BETA-SALIC Pommade",
+        "conditionnement": "Pommade",
+        "description": "Betamethasone + Acide Salicylique",
+        "dosage": "30g"
+      },
+      {
+          "name": "CLOMED Pommade",
+          "conditionnement": "Pommade",
+          "description": "Clobetasol (Propionate)",
+          "dosage": "30g"
+      }
+  ]

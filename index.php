@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:900%7cMontserrat:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-    <link rel="stylesheet" href="libs/autocomplete/autocomplete-0.3.0.css">
+    <link rel="stylesheet" href="libs/EasyAutocomplete/easy-autocomplete.min.css">
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
@@ -154,7 +154,12 @@
             <div class="col s6 offset-s2 l4 offset-l2 underline"></div>
           </div>
           <form class="col s10 offset-s1 l4">
-            <div id="search_bar" class="input-field"></div>
+            <div class="input-field">
+              <input id="search_bar">
+            </div>
+            <div class="input-field">
+              <input id="desc">
+            </div>
           </form>
         <div class="col s10 offset-s1 hide-on-small-only">
           <div class="carousel carousel-slider">
@@ -307,7 +312,7 @@
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script type="text/javascript" src="libs/autocomplete/autocomplete-0.3.0.js"></script>
+    <script src="libs/EasyAutocomplete/jquery.easy-autocomplete.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
