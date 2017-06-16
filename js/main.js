@@ -9,7 +9,7 @@ $(function(){
   $('.carousel').carousel({duration: 300, dist: -100});
 
   // initialisation carousel pleine largeur
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
+  $('.carousel.carousel-slider').carousel({duration: 300, fullWidth: true, indicators: true});
 
   // Initialisation parallax
   $('.parallax').parallax();

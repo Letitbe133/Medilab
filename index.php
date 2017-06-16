@@ -45,15 +45,15 @@
           <!-- Parallax module start -->
             <div class="parallax-container hide-on-small-only">
               <div class="parallax">
-					 <img src="assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>                
+					 <img src="assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>
               </div>
             </div>
- 				         
+
             <div class="parallax-container hide-on-med-and-up">
               <div class="parallax">
 				      <img src="assets/img/we-care-for-you-medilab-600.jpeg" alt="We care for you"/>
               </div>
-            </div>            
+            </div>
           <!-- Parallax module end -->
 
           <div class="tagline">
@@ -92,21 +92,21 @@
           </div>
         </div>
         </section>
-      
+
         <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src="assets/img/about-us-illustration-1200.jpeg" alt="Learn more about us"/>
-              
+
           </div>
          </div>
  			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          	<div class="parallax ">
             <img src="assets/img/about-us-illustration-600.jpeg" alt="Learn more about us"/>
 				</div>
-     
+
         </div>
-      
-      
+
+
       <section id="activities" class="section row scrollspy grey lighten-4">
         <div class="row">
           <div class="col s12">
@@ -141,8 +141,8 @@
             </div>
           </div>
       </section>
-      
-      
+
+
       <section id="network" class="section row">
         <div class="col s12 l6 center-align">
           <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
@@ -159,14 +159,14 @@
       <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg" alt="Discover our products"/>
-              
+
           </div>
          </div>
  			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          	<div class="parallax ">
             <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg" alt="Discover our products"/>
 				</div>
-     
+
         </div>
       <section id="products" class="section row grey lighten-4 scrollspy">
         <div class="row">
@@ -185,15 +185,15 @@
             </div>
           </form>
         </div>
-        <div class="col s10 offset-s1 hide-on-small-only">
-          <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/nature/1"></a>
-            <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/nature/2"></a>
-            <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/nature/3"></a>
-            <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/nature/4"></a>
-          </div>
-        </div>
       </section>
+      <div class="col s10 offset-s1 hide-on-small-only">
+        <div class="carousel carousel-slider" data-indicators="true">
+          <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/nature/1"></a>
+          <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/nature/2"></a>
+          <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/nature/3"></a>
+          <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/nature/4"></a>
+        </div>
+      </div>
 
       <section id="partners" class="section row scrollspy">
         <div class="row">
@@ -242,16 +242,16 @@
       <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
             <img src= "assets/img/clasped-hands-comfort-hands-people-1200.jpeg" alt="Discover our products"/>
-              
+
           </div>
       </div>
  		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
          <div class="parallax ">
             <img src= "assets/img/clasped-hands-comfort-hands-people-600.jpeg" alt="Discover our products"/>
 			</div>
-     
-      </div>      
-      
+
+      </div>
+
       <section id="contact" class="section row scrollspy">
         <div class="row">
           <div class="col s12">
