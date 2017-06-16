@@ -202,6 +202,7 @@
             <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
           </div>
         </div>
+        <div class="row col s12">
         <div class="col l7 offset-l1">
           <h3>High quality through trusted partners</h3>
         </div>
@@ -210,6 +211,7 @@
             Medilab only collaborates with suppliers that are prequalified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/">World Health Organization</a>.<br/>
             The process covers screening of documentation, assessment of products along whith site and on-site audits.
             </p>
+        </div>
         </div>
         <div class="row">
           <div class="col s12 l6 dark-green center">
