@@ -47,7 +47,6 @@
               <div class="parallax">
                 <img src="assets/img/we-care-for-you-medilab-600.jpeg"
                   alt="We care for you"
-                  class="img-responsive"
                   srcset="assets/img/we-care-for-you-medilab-600.jpeg 600w, assets/img/we-care-for-you-medilab-992.jpeg 992w, assets/img/we-care-for-you-medilab-1200.jpeg 1200w, assets/img/we-care-for-you-medilab-1200+.jpeg 1920w"
                   sizes="(min-width: 992px) 98vw">
                 </div>
@@ -80,16 +79,18 @@
           </div>
         </div>
         <div class="row">
-          <div class="col s12 l7 offset-l1">
+          <div class="col s12">
             <h3>Committed to greater accessibility of healthcare in developping countries</h3>
             <p>Since 1993, we offer a wide range of high quality pharmaceuticals through professional healthcare outlets, hospitals, pharmacies and much more.<br/>
               As a major player in the distribution of medecines, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
           </div>
-          <div class="col s12 l4">
+        </div>
+        <div class="parallax-container">
+          <div class="parallax">
             <img src="assets/img/about-us-illustration-600.jpeg"
               alt="Learn more about us"
               srcset="assets/img/about-us-illustration-600.jpeg 600w, assets/img/about-us-illustration-992.jpeg 992w, assets/img/about-us-illustration-1200 1200w.jpeg, assets/img/about-us-illustration-1200+.jpeg 1920w"
-              sizes="(min-width: 992px) 30vw, 95vw">
+              sizes="(min-width: 992px) 99vw">
           </div>
         </div>
       </section>
