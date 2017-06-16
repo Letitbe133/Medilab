@@ -1,10 +1,12 @@
 $(function(){
 
   // Initialisation menu hamburger
-  $(".button-collapse").sideNav();
+  $(".button-collapse").sideNav({
+    closeOnClick: true
+  });
 
   // initialisation carousel
-  $('.carousel').carousel({duration: 300, dist: -100, indicators: true});
+  $('.carousel').carousel({duration: 300, dist: -100});
 
   // initialisation carousel pleine largeur
   $('.carousel.carousel-slider').carousel({fullWidth: true});
@@ -15,6 +17,8 @@ $(function(){
   // Initialisation scrollSpy
   $('.scrollspy').scrollSpy({scrollOffset:30});
 
+
+  // EasyAutocomplete setup
   var options = {
 	url: "http://localhost/medilab/products.json",
 
@@ -22,11 +26,19 @@ $(function(){
 
   placeholder: 'Search for a product',
 
+  theme: "dark",
+
+  highlightPhrase: true,
 
 	list: {
 		match: {
 			enabled: true
 		},
+
+    sort: {
+      enabled: true
+    },
+
     showAnimation: {
   			type: "fade", //normal|slide|fade
   			time: 400,
@@ -41,12 +53,13 @@ $(function(){
 
       onClickEvent: function(){
         var target = $("#search_bar").getSelectedItemData();
-        var value = target.description + " " + target.dosage ;
+        var value = target.description + " " + target.conditionnement;
         $("#desc").val(value).trigger("change");
       }
 	}
 };
 
   $("#search_bar").easyAutocomplete(options);
+
 
 })

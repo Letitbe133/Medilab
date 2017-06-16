@@ -42,6 +42,14 @@ Bleu : 0097c6ff (0, 151, 198)
   background-color: transparent;
 }
 
+/*#partners-logos img {
+  display: none;
+}
+
+.activeImage {
+  display: block!important;
+}*/
+
 
 /* Style général */
 
@@ -64,15 +72,22 @@ h3 {
   font-size: 1.7rem;
 }
 
+a, a:active, a:visited {
+  text-decoration: none;
+}
+
 .parallax-container {
       height: 66vh;
     }
 
+.tagline, .tagline a {
+  color: white;
+}
+
 .tagline {
   position: absolute;
   width: 100%;
-  top: 10%;
-  color: white;
+  top: 15%;
 }
 
 .tagline h2 {
@@ -150,6 +165,18 @@ footer h2 {
   margin-top: 1rem;
 }
 
+#partners-logos {
+  padding: 3rem 0rem;
+}
+
+#search_bar {
+  box-sizing: border-box!important;
+}
+
+#pictos img {
+  width: 20%;
+}
+
 @media (min-width: 992px) {
   h1 {
     font-size: 5rem;
@@ -159,8 +186,12 @@ footer h2 {
     font-size: 3rem;
   }
 
+  .parallax-container {
+        height: 70vh;
+      }
+
   .tagline {
-    top: 23%;
+    top: 35%;
   }
 
   .tagline h2 {
@@ -173,6 +204,19 @@ footer h2 {
 
   section h2 {
     margin-top: 3rem;
+  }
+
+  #pictos {
+    padding-top: 3rem;
+  }
+
+  #pictos img {
+    width: auto;
+  }
+
+
+  #network div img {
+    width: 45%;
   }
 
 }

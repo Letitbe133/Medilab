@@ -1,20 +1,50 @@
 [
     {
         "name": "BETAMED Crème",
-        "conditionnement": "Crème",
+        "type": "Crème",
         "description": "Betamethasone crème",
-        "dosage": "30g"
+        "conditionnement": "30g"
       },
       {
         "name": "BETA-SALIC Pommade",
-        "conditionnement": "Pommade",
+        "type": "Pommade",
         "description": "Betamethasone + Acide Salicylique",
-        "dosage": "30g"
+        "conditionnement": "30g"
       },
       {
           "name": "CLOMED Pommade",
-          "conditionnement": "Pommade",
+          "type": "Pommade",
           "description": "Clobetasol (Propionate)",
-          "dosage": "30g"
+          "conditionnement": "30g"
+      },
+      {
+        "name": "CLOTRIDERM Crème",
+        "type": "Crème",
+        "description": "Clotrimazole 1%",
+        "conditionnement": "30g"
+      },
+      {
+        "name": "BETAMED Inj",
+        "type": "Injection",
+        "description": "Bethamethazone 4mg/1ml inj",
+        "conditionnement": "B/3"
+      },
+      {
+        "name": "CLOTRIDERM Ovule",
+        "type": "Comprimé gynécologique",
+        "description": "Clotrimazone 100mg",
+        "conditionnement": "B/6"
+      },
+      {
+        "name": "GENTAMED Collire",
+        "type": "Collyre",
+        "description": "Gentamicin 3%",
+        "conditionnement": "5ml"
+      },
+      {
+        "name": "BETAMED Oral",
+        "type": "Suspension",
+        "description": "Betamethasone",
+        "conditionnement": "30ml"
       }
   ]
