@@ -83,20 +83,30 @@
         </div>
         <div class="row">
           <div class="col s12">
-            <h3>Committed to greater accessibility of healthcare in developping countries</h3>
+           	<div class="col l7 offset-l1">
+           	<h3>Committed to greater accessibility of healthcare in developping countries</h3>
+           	</div>
+           	<div class="col l10 offset-l1">
             <p>Since 1993, we offer a wide range of high quality pharmaceuticals through professional healthcare outlets, hospitals, pharmacies and much more.<br/>
               As a major player in the distribution of medecines, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
           </div>
         </div>
-        <div class="parallax-container">
+        </section>
+      
+        <div id="parallax-2" class="parallax-container hide-on-small-only">
           <div class="parallax">
-            <img src="assets/img/about-us-illustration-600.jpeg"
-              alt="Learn more about us"
-              srcset="assets/img/about-us-illustration-600.jpeg 600w, assets/img/about-us-illustration-992.jpeg 992w, assets/img/about-us-illustration-1200 1200w.jpeg, assets/img/about-us-illustration-1200+.jpeg 1920w"
-              sizes="(min-width: 992px) 99vw">
+            <img src="assets/img/about-us-illustration-1200.jpeg" alt="Learn more about us"/>
+              
           </div>
+         </div>
+ 			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
+         	<div class="parallax ">
+            <img src="assets/img/about-us-illustration-600.jpeg" alt="Learn more about us"/>
+				</div>
+     
         </div>
-      </section>
+      
+      
       <section id="activities" class="section row scrollspy grey lighten-4">
         <div class="row">
           <div class="col s12">
@@ -131,14 +141,8 @@
             </div>
           </div>
       </section>
-      <div class="row hide-on-med-and-up mid-sec-img">
-          <div class="col s12 hide-on-med-and-up">
-            <img src="assets/img/clasped-hands-comfort-hands-people-600.jpeg"
-              alt="Discover our products"
-              srcset="assets/img/clasped-hands-comfort-hands-people-600.jpeg 600w, assets/img/clasped-hands-comfort-hands-people-992.jpeg 992w, assets/img/clasped-hands-comfort-hands-people-1200.jpeg 1200w, assets/img/clasped-hands-comfort-hands-people-1200+.jpeg 1920w"
-              sizes="94vw">
-          </div>
-      </div>
+      
+      
       <section id="network" class="section row">
         <div class="col s12 l6 center-align">
           <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
@@ -152,6 +156,18 @@
               </div>
         </div>
       </section>
+      <div id="parallax-2" class="parallax-container hide-on-small-only">
+          <div class="parallax">
+            <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg" alt="Discover our products"/>
+              
+          </div>
+         </div>
+ 			<div id="parallax-3" class="parallax-container hide-on-med-and-up">
+         	<div class="parallax ">
+            <img src= "assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg" alt="Discover our products"/>
+				</div>
+     
+        </div>
       <section id="products" class="section row grey lighten-4 scrollspy">
         <div class="row">
           <div class="col s12 l7">
@@ -178,6 +194,7 @@
           </div>
         </div>
       </section>
+
       <section id="partners" class="section row scrollspy">
         <div class="row">
           <div class="col s12">
@@ -220,14 +237,19 @@
             </div>
         </div>
       </section>
-      <div class="row hide-on-med-and-up mid-sec-img">
-        <div class="col s12">
-          <img src="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg"
-            alt="Discover our products"
-            srcset="assets/img/medications-cure-tablets-pharmacy-feuille-600.jpeg 600w, assets/img/medications-cure-tablets-pharmacy-feuille-992.jpeg 992w, assets/img/medications-cure-tablets-pharmacy-feuille-1200.jpeg 1200w, assets/img/medications-cure-tablets-pharmacy-feuille-1200+.jpeg 1920w"
-            sizes="94vw">
-        </div>
+      <div id="parallax-2" class="parallax-container hide-on-small-only">
+          <div class="parallax">
+            <img src= "assets/img/clasped-hands-comfort-hands-people-1200.jpeg" alt="Discover our products"/>
+              
+          </div>
       </div>
+ 		<div id="parallax-3" class="parallax-container hide-on-med-and-up">
+         <div class="parallax ">
+            <img src= "assets/img/clasped-hands-comfort-hands-people-600.jpeg" alt="Discover our products"/>
+			</div>
+     
+      </div>      
+      
       <section id="contact" class="section row scrollspy">
         <div class="row">
           <div class="col s12">

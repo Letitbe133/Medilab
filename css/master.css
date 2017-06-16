@@ -79,7 +79,9 @@ a, a:active, a:visited {
 .parallax-container {
       height: 66vh;
     }
-
+#parallax-3 {
+		height:200px;
+}
 .tagline, .tagline a {
   color: white;
 }
