@@ -43,14 +43,17 @@
         <div class="row">
 
           <!-- Parallax module start -->
-            <div class="parallax-container">
+            <div class="parallax-container hide-on-small-only">
               <div class="parallax">
-                <img src="assets/img/we-care-for-you-medilab-600.jpeg"
-                  alt="We care for you"
-                  srcset="assets/img/we-care-for-you-medilab-600.jpeg 600w, assets/img/we-care-for-you-medilab-992.jpeg 992w, assets/img/we-care-for-you-medilab-1200.jpeg 1200w, assets/img/we-care-for-you-medilab-1200+.jpeg 1920w"
-                  sizes="(min-width: 992px) 98vw">
-                </div>
+					 <img src="assets/img/we-care-for-you-medilab-1200.jpeg" alt="We care for you"/>                
+              </div>
             </div>
+ 				         
+            <div class="parallax-container hide-on-med-and-up">
+              <div class="parallax">
+				      <img src="assets/img/we-care-for-you-medilab-600.jpeg" alt="We care for you"/>
+              </div>
+            </div>            
           <!-- Parallax module end -->
 
           <div class="tagline">
