@@ -63,9 +63,7 @@
             <div class="col s12">
               <h2>Because your health matters</h2>
             </div>
-            <div class="col s2 offset-s5 center">
-              <a href="#about"><i class="material-icons md-60 center">keyboard_arrow_down</i></a>
-            </div>
+            
           </div>
         </div>
     </header>
