@@ -260,7 +260,7 @@
           </div>
         </div>
         <div class="row center">
-          <form class="col s12 l10 offset-l1">
+          <form class="col s12 l10 offset-l1" action="contact.php" method="post">
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
