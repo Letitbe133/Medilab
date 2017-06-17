@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
                 "Reply-To:" . $email . "\r\n" .
                 "Content-Type: text/html; charset=ISO-8859-1\r\n" .
                 "X-Mailer: PHP/" . phpversion();
-    mail($to, $objet, $message, $headers);
+    mail($to, $subject, $message, $headers);
     $feedback = "Thank's for reachin'out " . $name . "! We'll get in touch shortly.";
   } else {
     $feedback = "Ooops ! Something's missing... ";
