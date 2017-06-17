@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Medilab</title>
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
-    <link href="https://fonts.googleapis.com/css?family=Lato:900%7cMontserrat:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cMontserrat:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="libs/EasyAutocomplete/easy-autocomplete.min.css">
@@ -78,17 +78,17 @@
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">About us</h2>
-            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
         <div class="row">
           <div class="col s12">
            	<div class="col l7 offset-l1">
-           	<h3>Committed to greater accessibility of healthcare in developping countries</h3>
+           	<h3>Committed to greater accessibility of healthcare in developing countries</h3>
            	</div>
            	<div class="col l10 offset-l1">
             <p>Since 1993, we offer a wide range of high quality pharmaceuticals through professional healthcare outlets, hospitals, pharmacies and much more.<br/>
-              As a major player in the distribution of medecines, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
+              As a major player in the distribution of medicine, our mission is to improve access to and provide high quality pharmaceuticals and medical supplies at the lowest possible price to the healthcare sector in developing countries..</p>
           </div>
         </div>
         </section>
@@ -107,52 +107,52 @@
         </div>
 
 
-      <section id="activities" class="section row scrollspy grey lighten-4">
+      <section id="activities" class="section row scrollspy">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Activities</h2>
-            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
-          <div id="pictos" class="col l12">
+          <div id="pictos" class="col s12">
             <div class="col s12 l4">
               <div class="col s12  center-align">
                 <img  src="assets/img/pictos/pills.png" alt="High quality generics"/>
               </div>
-              <div class="col s12">
-                <h3 class="center-align">We maintain high quality standards for our whole products range</h3>
+              <div class="container col s8 offset-s2">
+                <p class="center-align">We maintain high quality standards for our whole products range</p>
               </div>
             </div>
             <div class="col s12 l4">
               <div class="col s12 center-align">
                 <img src="assets/img/pictos/hands.png" alt="Trusted partners"/>
               </div>
-              <div class="col s12">
-                <h3 class="center-align">We believe in long-term business and open-minded relationships with our suppliers.</h3>
+              <div class="container col s8 offset-s2">
+                <p class="center-align">We believe in long-term business and open-minded relationships with our suppliers.</p>
               </div>
             </div>
             <div class="col s12 l4">
               <div class="col s12  center-align">
                 <img src="assets/img/pictos/earth-arrow-blue.png" alt="We deliver"/>
               </div>
-              <div class="col s12">
-                <h3 class="center-align">we deliver a wide range of tailor-made safe and cost-effective products</h3>
+              <div class="container col s8 offset-s2">
+                <p class="center-align">we deliver a wide range of tailor-made safe and cost-effective products</p>
               </div>
             </div>
           </div>
       </section>
 
 
-      <section id="network" class="section row">
-        <div class="col s12 l6 center-align">
+      <section id="network" class="row grey lighten-4 no-margin-bottom">
+        <div class="col s12 m6 offset-m3 center-align">
           <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
         </div>
-        <div class="col s12 l6">
-              <div class="col s10 offset-s1">
-                <i class="material-icons md-36 dark-red">location_on</i>Two main dispatch locations
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+              <div class="col s10 offset-s1 m5 offset-m1 ">
+                <i class="material-icons md-36 dark-red center-align">location_on</i>Two main dispatch locations
               </div>
-              <div class="col s10 offset-s1">
-                <i class="material-icons md-36 dark-green">location_on</i>European based partners
+              <div class="col s10 offset-s1 m5 offset-m1">
+                <i class="material-icons md-36 dark-green center-align">location_on</i>European based partners
               </div>
         </div>
       </section>
@@ -168,11 +168,11 @@
 				</div>
 
         </div>
-      <section id="products" class="section row grey lighten-4 scrollspy">
+      <section id="products" class="section row scrollspy">
         <div class="row">
-          <div class="col s12 l7">
+          <div class="col s12 ">
             <h2 class="dark-green">Products</h2>
-            <div class="col s6 offset-s2 l4 offset-l2 underline"></div>
+            <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
         <div class="row">
@@ -195,11 +195,11 @@
         </div>
       </div>
 
-      <section id="partners" class="section row scrollspy">
+      <section id="partners" class="section row scrollspy no-margin-bottom">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Partners</h2>
-            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
         <div class="row col s12">
@@ -208,8 +208,8 @@
         </div>
         <div class="col l10 offset-l1">
           <p>We strive for building fair and close bounds with manufacturers of pharmaceuticals goods that comply with our quality standards.<br/>
-            Medilab only collaborates with suppliers that are prequalified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/">World Health Organization</a>.<br/>
-            The process covers screening of documentation, assessment of products along whith site and on-site audits.
+            Medilab only collaborates with suppliers that are pre-qualified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/">World Health Organization</a>.<br/>
+            The process covers screening of documentation, assessment of products along with site and on-site audits.
             </p>
         </div>
         </div>
@@ -223,20 +223,22 @@
             <h6>Good Distribution Practice</h6>
           </div>
         </div>
-        <div class="row">
-          <div id="partners-logos" class="col s12 l12 grey lighten-4">
-            <div class="col s6 l3">
-              <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="">
+        <div class="row no-margin-bottom grey lighten-4">
+          <div class="container" id="partners-logos" class="col s12 grey lighten-4">
+         
+            <div class="logo col s6 l3 center-align">
+              <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" width="100px" >
             </div>
-            <div class="col s6 l3">
-              <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="">
+            <div class="logo col s6 l3 center-align">
+              <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="" width="100px">
             </div>
-            <div class="col s6 l3">
-              <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="">
+            <div class="logo col s6 l3 center-align">
+              <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px" >
             </div>
-            <div class="col s6 l3">
-              <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="">
+            <div class="logo col s6 l3 center-align">
+              <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px">
             </div>
+       
         </div>
       </section>
       <div id="parallax-2" class="parallax-container hide-on-small-only">
@@ -311,7 +313,7 @@
 
 
     <!-- Footer start -->
-    <footer class="section row grey darken-3">
+    <footer class="section row grey darken-3 no-margin-bottom">
       <div class="col s12">
         <h2>Head Office</h2>
         <div class="row">
@@ -328,7 +330,7 @@
           </div>
         </div>
       </div>
-      <div class="divider col s12"></div>
+      <div class="divider col s12 grey darken-2"></div>
         <div class="col s12 center-align">
           &copy&nbspCopyright 2017. All rights reserved. Legal informations. Terms of use
         </div>
