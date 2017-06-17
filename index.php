@@ -63,7 +63,7 @@
             <div class="col s12">
               <h2>Because your health matters</h2>
             </div>
-            
+
           </div>
         </div>
     </header>
@@ -223,7 +223,7 @@
         </div>
         <div class="row no-margin-bottom grey lighten-4">
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
-         
+
             <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" width="100px" >
             </div>
@@ -236,7 +236,7 @@
             <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px">
             </div>
-       
+
         </div>
       </section>
       <div id="parallax-2" class="parallax-container hide-on-small-only">
@@ -272,7 +272,7 @@
               <div class="input-field col s12">
                 <i class="material-icons prefix">business</i>
                 <input placeholder="My company" id="company" type="text" class="validate">
-                <label for="name">Your company</label>
+                <label for="company">Your company</label>
               </div>
             </div>
             <div class="row">
