@@ -1,3 +1,4 @@
+<?php require_once('contact.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -260,7 +261,7 @@
           </div>
         </div>
         <div class="row center">
-          <form class="col s12 l10 offset-l1" action="contact.php" method="post">
+          <form class="col s12 l10 offset-l1" action="#!" method="post">
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
