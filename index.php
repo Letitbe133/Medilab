@@ -214,11 +214,11 @@
         </div>
         </div>
         <div class="row">
-          <div class="col s12 l6 dark-green center">
+          <div class="col s12 m6 dark-green center">
             <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GMP</h2>
             <h6>Good Manufacturing Practice</h6>
           </div>
-          <div class="col s12 l6 dark-green center">
+          <div class="col s12 m6 dark-green center">
             <h2 style="justify-content: center;" class="valign-wrapper"><i class="material-icons md-60 pale-green">check_circle</i>GDP</h2>
             <h6>Good Distribution Practice</h6>
           </div>
@@ -258,7 +258,7 @@
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Contact us</h2>
-            <div class="col s6 offset-s2 l2 offset-l1 underline"></div>
+            <div class="col s6 offset-s2 m2 offset-m1 underline"></div>
           </div>
         </div>
         <div class="row center">

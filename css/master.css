@@ -86,6 +86,9 @@ a, a:active, a:visited {
 		height:200px;
 		
 }
+#parallax-2 {
+		height: 400px;
+}
 
 .tagline, .tagline a {
   color: white;
