@@ -36,7 +36,7 @@
         "conditionnement": "B/6"
       },
       {
-        "name": "GENTAMED Collire",
+        "name": "GENTAMED Collyre",
         "type": "Collyre",
         "description": "Gentamicin 3%",
         "conditionnement": "5ml"
@@ -84,13 +84,13 @@
         "conditionnement": "1g"
       },
       {
-        "name": "ALBIZOL",
+        "name": "ALBIZOL Sirop",
         "type": "Sirop",
         "description": "Albendazole",
         "conditionnement": "200mg / 5ml"
       },
       {
-        "name": "ALBIZOL",
+        "name": "ALBIZOL Comprimé",
         "type": "Comprime",
         "description": "Albendazole",
         "conditionnement": "400mg"

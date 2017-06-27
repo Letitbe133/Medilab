@@ -53,7 +53,7 @@ $(function(){
 
       onClickEvent: function(){
         var target = $("#search_bar").getSelectedItemData();
-        var value = target.description + " " + target.conditionnement;
+        var value = target.description + " " + target.type + " "+ target.conditionnement;
         $("#desc").val(value).trigger("change");
       }
 	}
