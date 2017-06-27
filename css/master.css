@@ -84,7 +84,7 @@ a, a:active, a:visited {
     }
 #parallax-3 {
 		height:200px;
-		
+
 }
 #parallax-2 {
 		height: 400px;
@@ -190,22 +190,35 @@ footer h2 {
 
 #pictos img {
   height: 70px;
- 
-
 }
+
 #pictos p{
 	margin-bottom: 90px;
 }
+
 #partners {
 	padding-bottom: 0px;
 }
+
 #network {
 	margin-top: -50px;
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
+
 .logo {
 	padding: 20px!important;
+}
+
+/* Indicateurs slider */
+.indicators .indicator-item {
+  background-color: lightgrey!important;
+  height: 16px!important;
+  width: 16px!important;
+}
+
+.indicators .active {
+  background-color: rgba(25, 118, 72, 1)!important;
 }
 
 

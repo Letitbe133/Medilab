@@ -185,12 +185,31 @@
           </form>
         </div>
       </section>
+      <!-- <div class="row">
+        <div class="col s10 offset-s1 l4">
+          <img class="responsive-img" src="assets/img/produits/gentamed.png" alt="Gentamed">
+        </div>
+        <div class="col s10 offset-s1 l4">
+          <img class="responsive-img" src="assets/img/produits/betamed-pommade.png" alt="Betamed pommade">
+        </div>
+        <div class="col s10 offset-s1 l4">
+          <img class="responsive-img" src="assets/img/produits/parafene.png" alt="Parafen">
+        </div>
+      </div> -->
       <div class="col s10 offset-s1 hide-on-small-only">
         <div class="carousel carousel-slider" data-indicators="true">
-          <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/nature/1"></a>
-          <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/nature/2"></a>
-          <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/nature/3"></a>
-          <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/nature/4"></a>
+          <a class="carousel-item" href="#one!"><img src="assets/img/produits/gentamed.png" alt="Gentamed" width="50%"></a>
+          <a class="carousel-item" href="#two!"><img src="assets/img/produits/betamed-pommade.png" alt="Betamed pommade"></a>
+          <a class="carousel-item" href="#three!"><img src="assets/img/produits/parafene.png" alt="Parafen"></a>
+          <a class="carousel-item" href="#four!"><img src="assets/img/produits/beta-salic-pommade.png" alt="Beta Salic"></a>
+        </div>
+      </div>
+      <div class="col s10 offset-s1 hide-on-med-and-up">
+        <div class="carousel" data-indicators="true">
+          <a class="carousel-item" href="#one!"><img src="assets/img/produits/gentamed.png" alt="Gentamed"></a>
+          <a class="carousel-item" href="#two!"><img src="assets/img/produits/betamed-pommade.png" alt="Betamed pommade"></a>
+          <a class="carousel-item" href="#three!"><img src="assets/img/produits/parafene.png" alt="Parafen"></a>
+          <a class="carousel-item" href="#four!"><img src="assets/img/produits/beta-salic-pommade.png" alt="Beta Salic"></a>
         </div>
       </div>
 

@@ -6,7 +6,7 @@ $(function(){
   });
 
   // initialisation carousel
-  $('.carousel').carousel({duration: 300, dist: -100});
+  $('.carousel').carousel({duration: 300, dist: -100, shift: 50, indicators: true});
 
   // initialisation carousel pleine largeur
   $('.carousel.carousel-slider').carousel({duration: 300, fullWidth: true, indicators: true});
