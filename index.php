@@ -197,13 +197,13 @@
             <img src="assets/img/produits/betamed-creme.png" alt="" width="300px">
           </div>
           <div class="slide">
-            <img src="assets/img/produits/betanol.png" alt="" width="300px">
+            <img src="assets/img/produits/parafene.png" alt="" width="300px">
           </div>
           <div class="slide">
             <img src="assets/img/produits/betamed-pommade.png" alt="" width="300px">
           </div>
           <div class="slide">
-            <img src="assets/img/produits/gentamed.png" alt="" width="300px">
+            <img src="assets/img/produits/gentamed-collyre.png" alt="" width="300px">
           </div>
         </div>
       </div>
