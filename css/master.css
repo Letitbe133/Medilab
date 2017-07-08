@@ -205,7 +205,9 @@ footer h2 {
 	padding-bottom: 50px;
 	padding-top: 50px;
 }
-
+#picto-location {
+	padding-top: 70px;
+}
 .logo {
 	padding: 20px!important;
 }
@@ -242,7 +244,7 @@ footer h2 {
 }
 
 .slides {
-  width: calc(320px * 5);
+  width: calc(320px * 7);
   animation: slide 20s ease infinite 2s;
 }
 

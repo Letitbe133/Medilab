@@ -146,7 +146,7 @@
         <div class="col s12 m6 offset-m3 center-align">
           <img class="img-responsive" src="assets/img/pictos/carte-monde-medilab.svg" alt="earth network" width="70%"/>
         </div>
-        <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div id="picto-location" class="col s12 m8 offset-m2 l6 offset-l3">
               <div class="col s10 offset-s1 m5 offset-m1 ">
                 <i class="material-icons md-36 dark-red center-align">location_on</i>Two main dispatch locations
               </div>
@@ -191,7 +191,7 @@
         </div>
         <div class="slides">
           <div class="slide">
-            <img src="assets/img/produits/beta-salic-pommade.png" alt="" width="300px">
+            <img src="assets/img/produits/betanol.png" alt="" width="300px">
           </div>
           <div class="slide">
             <img src="assets/img/produits/betamed-creme.png" alt="" width="300px">
@@ -200,11 +200,17 @@
             <img src="assets/img/produits/parafene.png" alt="" width="300px">
           </div>
           <div class="slide">
-            <img src="assets/img/produits/betamed-pommade.png" alt="" width="300px">
+            <img src="assets/img/produits/clomed-creme.png" alt="" width="300px">
           </div>
           <div class="slide">
-            <img src="assets/img/produits/gentamed-collyre.png" alt="" width="300px">
+            <img src="assets/img/produits/betamed-pommade.png" alt="" width="300px">
           </div>
+          <!--<div class="slide">
+            <img src="assets/img/produits/gentamed.png" alt="" width="300px">
+          </div>
+          <div class="slide">
+            <img src="assets/img/produits/clomed-pommade.png" alt="" width="300px">
+          </div>-->
         </div>
       </div>
       <!-- <div class="row">
