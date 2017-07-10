@@ -261,34 +261,45 @@ footer h2 {
   05% {
     transform: translateX(0);
   }
-  20% {
+  14.3% {
     transform: translateX(-320px);
   }
-  30% {
+  19.3% {
     transform: translateX(-320px);
   }
-  40% {
+  28.6% {
     transform: translateX(-640px);
   }
-  50% {
+  33.6% {
     transform: translateX(-640px);
   }
-  60% {
+  42.9% {
     transform: translateX(-960px);
   }
-  70% {
+  47.9% {
     transform: translateX(-960px);
   }
-  80% {
+  57.2% {
     transform: translateX(-1280px);
   }
-  90% {
+  62.2% {
     transform: translateX(-1280px);
+  }
+  71.5% {
+    transform: translateX(-1600px);
+  }
+  76.5% {
+    transform: translateX(-1600px);
+  }
+  85.8% {
+    transform: translateX(-1920px);
+  }
+  90.8% {
+    transform: translateX(-1920px);
   }
   100% {
     transform: translateX(0);
   }
-
 }
 
 @media (min-width: 992px) {
@@ -337,7 +348,7 @@ footer h2 {
   }
 
   .slides {
-    width: calc(520px * 5);
+    width: calc(520px * 7);
   }
 
   .slider-css .slides .slide img {
@@ -351,34 +362,45 @@ footer h2 {
     05% {
       transform: translateX(0);
     }
-    20% {
+    14.3% {
       transform: translateX(-520px);
     }
-    30% {
+    19.3% {
       transform: translateX(-520px);
     }
-    40% {
+    28.6% {
       transform: translateX(-1040px);
     }
-    50% {
+    33.6% {
       transform: translateX(-1040px);
     }
-    60% {
+    42.9% {
       transform: translateX(-1560px);
     }
-    70% {
+    47.9% {
       transform: translateX(-1560px);
     }
-    80% {
+    57.2% {
       transform: translateX(-2080px);
     }
-    90% {
+    62.2% {
       transform: translateX(-2080px);
+    }
+    71.5% {
+      transform: translateX(-2600px);
+    }
+    76.5% {
+      transform: translateX(-2600px);
+    }
+    85.8% {
+      transform: translateX(-3120px);
+    }
+    90.8% {
+      transform: translateX(-3120px);
     }
     100% {
       transform: translateX(0);
     }
-  }
 
 
 }

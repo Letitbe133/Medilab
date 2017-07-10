@@ -205,6 +205,12 @@
           <div class="slide">
             <img src="assets/img/produits/betamed-pommade.png" alt="" width="300px">
           </div>
+          <div class="slide">
+            <img src="assets/img/produits/gentamed.png" alt="" width="300px">
+          </div>
+          <div class="slide">
+            <img src="assets/img/produits/clomed-pommade.png" alt="" width="300px">
+          </div>
           <!--<div class="slide">
             <img src="assets/img/produits/gentamed.png" alt="" width="300px">
           </div>
