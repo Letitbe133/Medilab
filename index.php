@@ -1,4 +1,6 @@
-<?php require_once('contact.php'); ?>
+<?php
+  require_once('contact.php');
+ ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -23,7 +25,7 @@
             <a href="#" class="brand-logo center-align"><img class="responsive-img" src="assets/img/logos/logo-medilab.svg" alt="logo medilab" width="40%"/></a>
             <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons md-36">menu</i></a>
             <ul class="right hide-on-med-and-down table-of-contents">
-              <li class="active"><a class="dark-green" href="#about">About</a></li>
+              <li><a class="dark-green" href="#about">About</a></li>
               <li><a class="dark-green" href="#activities">Activities</a></li>
               <li><a class="dark-green" href="#products">Products</a></li>
               <li><a class="dark-green" href="#partners">Partners</a></li>
@@ -119,8 +121,55 @@
                 <img  src="assets/img/pictos/pills.png" alt="High quality generics"/>
               </div>
               <div class="container col s8 offset-s2">
-                <p class="center-align">We maintain high quality standards for our whole products range</p>
+                <p class="center-align">We maintain high quality standards for our whole products range<br/>
+                  <!-- Modal Trigger -->
+                  <button id="amm" class="btn waves-effect waves-light" data-target="modal1">Learn more...</button>
+                </p>
               </div>
+
+              <!-- Modal Structure -->
+              <div id="modal1" class="modal modal-fixed-footer">
+                <div class="modal-content">
+                  <h4>Regulation facts</h4>
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-title center">
+                          Approved medicines
+                        </div>
+                        <div class="card-content">
+                          Our specialties received an MAA in 14 countries.
+                          <div class="">
+                            <ul id="productsList" class="collapsible" data-collapsible="accordion">
+                              <li >
+                                <div class="collapsible-header">Bethamethazone</div>
+                                <div class="collapsible-body">
+                                  <ul id="betamethasone">
+
+                                  </ul>
+                                </div>
+                              </li>
+
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 l6">
+                      <a target="blank" type="application/pdf" class="btn waves-effect" href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/474366/Best_practice_guidance_labelling_and_packaging_of_medicines.pdf">Packaging best practices</a>
+                    </div>
+                    <div class="col s12 l6">
+                      <a target="blank" type="application/pdf" class="btn waves-effect" href="https://www.fagg-afmps.be/sites/default/files/content/etiquetage_des_medicaments.pdf">Labelling best practices</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">clear</i></a>
+                </div>
+              </div>
+
             </div>
             <div class="col s12 l4">
               <div class="col s12 center-align">
@@ -226,7 +275,7 @@
         </div>
         <div class="col l10 offset-l1">
           <p>We strive for building fair and close bounds with manufacturers of pharmaceuticals goods that comply with our quality standards.<br/>
-            Medilab only collaborates with suppliers that are pre-qualified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/">World Health Organization</a>.<br/>
+            Medilab only collaborates with suppliers that are pre-qualified by us and meet the GMP and GDP norms laid by the <a href="http://www.who.int/en/" target=blank>World Health Organization</a>.<br/>
             The process covers screening of documentation, assessment of products along with site and on-site audits.
             </p>
         </div>
@@ -335,19 +384,26 @@
 
     <!-- Footer start -->
     <footer class="section row grey darken-3 no-margin-bottom">
-      <div class="col s12">
+      <div class="col l6">
         <h2>Head Office</h2>
         <div class="row">
-          <div class="col s12 l4">
+          <div class="col s12">
             MEDILAB UK Ltd<br/>
-            41 Chalton Street, London, United Kingdom, NW1 1jD
-          </div>
-          <div class="col s12 l4">
-            Phone : +44 20 7554 2222<br/>
+            41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
+            Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
             Fax : +44 20 7554 2201
-          </div>
-          <div class="col s12 l4">
             Mail : <a href="mailto:medilab@medilab.one">medilab@medliab.one</a>
+          </div>
+        </div>
+      </div>
+      <div class="col l6">
+        <h2>Belgium Office</h2>
+        <div class="row">
+          <div class="col s12">
+            MEDILAB Belgium SPRL<br/>
+            Av de Roodebeek 131, 1030 Schaerbeek, Bruxelles Belgium<br/>
+            Phone : <a href="tel:+32 49 21 66 161">+32 49 21 66 161</a><br/>
+            Mail : <a href="mailto:id@medilab.one">medilab@medliab.one</a>
           </div>
         </div>
       </div>
@@ -363,7 +419,33 @@
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-    <script src="libs/EasyAutocomplete/jquery.easy-autocomplete.min.js"></script>
+    <script src="libs/EasyAutocomplete/jquery.easy-autocomplete.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <!-- <script type="text/javascript">
+    $(function(){
+
+      var tableau = [{
+        "betamethasone" :
+        [{
+          "name": "BETAMED",
+          "description": "30mg"
+        }],
+        "clotrimazole":
+        [{
+          "name": "CLOTRIDERM",
+          "description": "pommade"
+        }]
+      }];
+
+      $(tableau[0]).each(function(){
+        //console.log($(this)[0]);
+        var item = $(this)[0];
+        $.each(item, function(k, v){
+          //console.log("mollecule : " + k);
+          //console.log(v[0].name);
+        })
+      })
+    })
+    </script> -->
   </body>
 </html>

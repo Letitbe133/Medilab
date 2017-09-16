@@ -5,11 +5,11 @@ $(function(){
     closeOnClick: true
   });
 
-  // initialisation carousel
-  $('.carousel').carousel({duration: 300, dist: -100, shift: 50, indicators: true});
+  // Initialisation modal
+  $('.modal').modal();
 
-  // initialisation carousel pleine largeur
-  $('.carousel.carousel-slider').carousel({duration: 300, fullWidth: true, indicators: true});
+  // Initialisation collapsible
+  $('.collapsible').collapsible();
 
   // Initialisation parallax
   $('.parallax').parallax();
@@ -20,7 +20,7 @@ $(function(){
 
   // EasyAutocomplete setup
   var options = {
-	url: "http://localhost/medilab/products.json",
+	url: "http://localhost/medilab/products.old",
 
 	getValue: "name",
 
@@ -34,7 +34,6 @@ $(function(){
 		match: {
 			enabled: true
 		},
-
     sort: {
       enabled: true
     },
@@ -60,6 +59,42 @@ $(function(){
 };
 
   $("#search_bar").easyAutocomplete(options);
+
+  // mollecules display
+  var jsonData = $.getJSON('products.json',function(data){
+    //console.log(data);
+    $(data.mollecule[0]).each(function(){
+      var item = $(this)[0];
+      console.log(item);
+      $.each(item, function(k, v) {
+        //console.log(k);
+        $('#productsList').append(`<div class="collapsible-header">${k}</div>
+        <div class=collapsible-body>
+        test
+        </div>
+        `)
+        // $('#productsList').append(`
+        //   <div class='collapsible-header'> ${k} </div>
+        //   <div class='collapsible-body'>
+        //     <ul>
+        //       <li>${v[0].name}</li>
+        //     </ul>
+        //   </div>
+        //   `);
+        $.each(v, function(){
+          console.log(v[0].description);
+        })
+        //console.log(v[0].name);
+      })
+    })
+    var betamethasone = $(data)[0]["mollecule"][0]['betamethasone'];
+    //console.log(betamethasone.length);
+    $(betamethasone).each(function(){
+      var test = $(this)[0]['name'];
+      //console.log(test);
+      $('#betamethasone').append("<li>" + test + "<span class='right'>" + $(this)[0]['conditionnement'] + "</span></li>");
+    })
+  });
 
 
 })
