@@ -293,18 +293,18 @@
         <div class="row no-margin-bottom grey lighten-4">
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
 
-            <div class="logo col s6 l3 center-align">
-              <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" width="100px" >
+            <div class="logo col s6 center-align">
+              <a href="http://www.ubipharm.com"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" width="100px" ></a>
             </div>
-            <div class="logo col s6 l3 center-align">
-              <img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="" width="100px">
+            <div class="logo col s6 center-align">
+              <a href="http://www.ds-promo.fr"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="" width="100px"></a>
             </div>
-            <div class="logo col s6 l3 center-align">
+            <!-- <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px" >
             </div>
             <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px">
-            </div>
+            </div> -->
 
         </div>
       </section>
@@ -384,11 +384,11 @@
 
     <!-- Footer start -->
     <footer class="section row grey darken-3 no-margin-bottom">
-      <div class="col l6">
-        <h2>Head Office</h2>
+      <div class="col l4">
+        <h2 class="center-align">Headquarters</h2>
         <div class="row">
           <div class="col s12">
-            MEDILAB UK Ltd<br/>
+            <p class="center-align">MEDILAB International UAE</p>
             41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
             Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
             Fax : +44 20 7554 2201
@@ -396,12 +396,30 @@
           </div>
         </div>
       </div>
-      <div class="col l6">
-        <h2>Belgium Office</h2>
+      <div class="col l4">
+        <h2 class="center-align">Europe branches</h2>
         <div class="row">
           <div class="col s12">
-            MEDILAB Belgium SPRL<br/>
+            <p class="center-align">MEDILAB International UK</p>
+            41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
+            Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
+            Fax : +44 20 7554 2201
+            Mail : <a href="mailto:medilab@medilab.one">medilab@medliab.one</a>
+          </div>
+          <div class="col s12">
+            <p class="center-align">MEDILAB Belgium SPRL</p>
             Av de Roodebeek 131, 1030 Schaerbeek, Bruxelles Belgium<br/>
+            Phone : <a href="tel:+32 49 21 66 161">+32 49 21 66 161</a><br/>
+            Mail : <a href="mailto:id@medilab.one">medilab@medliab.one</a>
+          </div>
+        </div>
+      </div>
+      <div class="col l4">
+        <h2 class="center-align">Africa branch</h2>
+        <div class="row">
+          <div class="col s12">
+            <p class="center-align">Training school</p>
+            Hann Mariste, Villa 11, Dakar Senegal<br/>
             Phone : <a href="tel:+32 49 21 66 161">+32 49 21 66 161</a><br/>
             Mail : <a href="mailto:id@medilab.one">medilab@medliab.one</a>
           </div>
