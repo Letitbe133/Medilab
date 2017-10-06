@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
     <link rel="stylesheet" href="libs/EasyAutocomplete/easy-autocomplete.min.css">
     <link rel="stylesheet" href="css/master.css">
+     <link rel="Shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
 
@@ -124,12 +125,12 @@
               <div class="container col s8 offset-s2">
                 <p class="center-align">We maintain high quality standards for our whole products range<br/>
                   <!-- Modal Trigger -->
-                  <button id="amm" class="btn waves-effect waves-light" data-target="modal1">Learn more...</button>
+                  <button id="amm" class="btn waves-effect waves-light" data-target="modal3">Learn more...</button>
                 </p>
               </div>
 
               <!-- Modal Structure -->
-              <div id="modal1" class="modal modal-fixed-footer">
+              <div id="modal3" class="modal modal-fixed-footer">
                 <div class="modal-content">
                   <h4>Regulation facts</h4>
                   <div class="row">
