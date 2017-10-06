@@ -60,13 +60,14 @@
           <!-- Parallax module end -->
 
           <div class="tagline">
-            <div class="col s6">
+          	<div class="row">
+            <div class="col s6 offset-s1">
                 <h1>We care<br/>for you</h1>
             </div>
-            <div class="col s12">
+            <div class="col s11 offset-s1">
               <h2>Because your health matters</h2>
             </div>
-
+				</div>
           </div>
         </div>
     </header>
@@ -75,7 +76,7 @@
     <!-- Main start -->
 
     <main>
-      <section id="about" class="section row scrollspy">
+      <section id="about" class="section row scrollspy container">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">About us</h2>
@@ -108,7 +109,7 @@
         </div>
 
 
-      <section id="activities" class="section row scrollspy">
+      <section id="activities" class="section row scrollspy container">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Activities</h2>
@@ -216,7 +217,7 @@
 				</div>
 
         </div>
-      <section id="products" class="section row scrollspy">
+      <section id="products" class="section row scrollspy container">
         <div class="row">
           <div class="col s12 ">
             <h2 class="dark-green">Products</h2>
@@ -262,7 +263,8 @@
           </div>
         </div>
       </div>
-      <section id="partners" class="section row scrollspy no-margin-bottom">
+      <section id="partners" class="section row scrollspy no-margin-bottom ">
+		<div class="container">       
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Partners</h2>
@@ -290,13 +292,14 @@
             <h6>Good Distribution Practice</h6>
           </div>
         </div>
-        <div class="row no-margin-bottom grey lighten-4">
+        </div>
+        <div class="no-margin-bottom grey lighten-4">
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
-
-            <div class="logo col s6 center-align">
+				<div class="row">
+            <div class="logo col s12 m6 center-align">
               <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm"  ></a>
             </div>
-            <div class="logo col s6 center-align">
+            <div class="logo col s12 m6 center-align">
               <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="" ></a>
             </div>
             <!-- <div class="logo col s6 l3 center-align">
@@ -305,7 +308,8 @@
             <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px">
             </div> -->
-
+            </div>
+			</div>
         </div>
       </section>
       <div id="parallax-2" class="parallax-container hide-on-small-only">
@@ -321,7 +325,7 @@
 
       </div>
 
-      <section id="contact" class="section row scrollspy">
+      <section id="contact" class="section container scrollspy">
         <div class="row">
           <div class="col s12">
             <h2 class="dark-green">Contact us</h2>
