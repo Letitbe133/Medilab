@@ -294,10 +294,10 @@
           <div class="container" id="partners-logos" class="col s12 grey lighten-4">
 
             <div class="logo col s6 center-align">
-              <a href="http://www.ubipharm.com"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm" width="100px" ></a>
+              <a href="http://www.ubipharm.com" target="_blank"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="logo-ubipharm"  ></a>
             </div>
             <div class="logo col s6 center-align">
-              <a href="http://www.ds-promo.fr"><img class="responsive-img" src="assets/img/logos/logo-ubipharm.png" alt="" width="100px"></a>
+              <a href="http://www.ds-promo.fr" target="_blank"><img class="responsive-img" src="assets/img/logos/Logo-DS.png" alt="" ></a>
             </div>
             <!-- <div class="logo col s6 l3 center-align">
               <img class="responsive-img" src="assets/img/logos/logo-planet-pharma.png" alt="" width="100px" >
@@ -383,12 +383,63 @@
 
 
     <!-- Footer start -->
-    <footer class="section row grey darken-3 no-margin-bottom">
+    <footer class="page-footer grey darken-2">
+    	<div class="container grey-text">
+      	<div class="row">
+      		<div class="col l4">
+        			<h2 class="">Headquarters</h2>       			 
+			            <h3 class="">MEDILAB International UAE</h3>
+			           <p class="emphase">Office 12, Floor 7, Amenity center, Tower 1, <br/>Al Jazeera Al Hamra Ras Al Khaimah, P.O. Box 2436, United Arab Emirates<br/>
+			            Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
+			            Fax : +44 20 7554 2201<br/>
+			            Mail : <a href="mailto:medilab@medilab.one">medilab@medliab.one</a></p>
+			            <p class="">Certificate of incorporation <a href="assets/doc/COI-MEDILAB INTERNATIONAL LTD.pdf" target="_blank"><i class="tiny material-icons">&#xE89E;</i></a></p>
+     			</div>
+      
+      	<div class="col l4">
+        <h2 class="">Europe branches</h2>
+        
+            <h3 class="">MEDILAB International UK</h3>
+           <p class="emphase">41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
+            Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
+            Fax : +44 20 7554 2201</br>
+            Mail : <a href="mailto:medilab@medilab.one">medilab@medliab.one</a>
+      
+        
+            <h3 class="">MEDILAB Belgium SPRL</h3>
+            <p class="emphase">Av de Roodebeek 131, 1030 Schaerbeek, Bruxelles Belgium<br/>
+            Phone : <a href="tel:+32 49 21 66 161">+32 49 21 66 161</a><br/>
+            Mail : <a href="mailto:id@medilab.one">medilab@medliab.one</a></p> 
+          </div>  
       <div class="col l4">
-        <h2 class="center-align">Headquarters</h2>
+        <h2 class="">Africa branch</h2>
+            <h3 class="">Medilab UK Intl filial</h3>
+          	<p class="emphase">Hann Mariste, Villa 11, Dakar Senegal<br/>
+            Phone : <a href="tel:+32 49 21 66 161">+32 49 21 66 161</a><br/>
+            Mail : <a href="mailto:id@medilab.one">medilab@medliab.one</a></p>   
+            <h3 class="">Training School</h3>  
+            <i class="emphase">Coming soon</i>   
+          </div>
+ </div>   
+ </div>
+      <div class="footer-copyright center-align">
+         <div class="container grey-text">
+         &copy&nbspCopyright 2017. All rights reserved 
+         <span>|</span> 
+         
+         <a class="grey-text" href="#!">Legal informations</a>
+         <span>|</span> 
+         <a class="grey-text" href="#!">Terms of use</a></div>
+     
+      </div>
+      </div>
+     </footer>
+    <!--<footer class="section row grey darken-3 no-margin-bottom">
+      <div class="col l4">
+        <h2 class="">Headquarters</h2>
         <div class="row">
-          <div class="col s12">
-            <p class="center-align">MEDILAB International UAE</p>
+          <div class="col s12 ">
+            <h3 class="">MEDILAB International UAE</h3>
             41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
             Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
             Fax : +44 20 7554 2201
@@ -400,7 +451,7 @@
         <h2 class="center-align">Europe branches</h2>
         <div class="row">
           <div class="col s12">
-            <p class="center-align">MEDILAB International UK</p>
+            <h3 class="">MEDILAB International UK</h3>
             41 Chalton Street, London, United Kingdom, NW1 1jD<br/>
             Phone : <a href="tel:+44 20 7554 2222">+44 20 7554 2222</a><br/>
             Fax : +44 20 7554 2201
@@ -429,7 +480,7 @@
         <div class="col s12 center-align">
           &copy&nbspCopyright 2017. All rights reserved. Legal informations. Terms of use
         </div>
-    </footer>
+    </footer>-->
     <!-- Footer end -->
 
     <script
